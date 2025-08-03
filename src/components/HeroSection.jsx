@@ -1,4 +1,4 @@
-import { ArrowDown } from "lucide-react"
+import { ArrowDown, Barcode, BracesIcon, Brackets, BrainCircuit, Code2, Code2Icon, CodeIcon, CodeSquare, CodeXmlIcon, GitCommit, GitCompareArrows, Parentheses } from "lucide-react"
 
 
 export const HeroSection = () => {
@@ -20,6 +20,16 @@ export const HeroSection = () => {
           <a href="#projects" className="cosmic-button">
             View My Work
           </a>
+        </div>
+
+        <div className="pt-6 animate-fade-in-delay-4 flex flex-row space-x-10">
+          <CodeXmlIcon className="w-30 h-30" />
+          <CodeIcon className="w-30 h-30" />
+          <BracesIcon className="w-30 h-30" />
+          <Brackets className="w-30 h-30" />
+          <GitCommit className="w-30 h-30" />
+          <GitCompareArrows className="w-30 h-30" />
+          <CodeXmlIcon className="w-30 h-30" />
         </div>
 
       </div>
